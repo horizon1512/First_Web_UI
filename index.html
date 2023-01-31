@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawk Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+
+<style>
+    body {
+        font-family: 'Roboto Slab', serif;
+        margin: 0px;
+        padding: 0px;
+        background: url('Img/bg.jpg');
+
+
+    }
+
+    .container {
+        border: 5px solid white;
+        color: white;
+        margin: 63px 67px;
+        padding: 31px 22px;
+        width: 29%;
+        border-radius: 28px;
+    }
+
+    .left {
+        color: white;
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 10px;
+
+    }
+
+    .left img {
+        width: 75px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 25px;
+        font-size: 16px;
+    }
+
+    .mid {
+
+        color: brown;
+        display: block;
+        width: 50%;
+        margin: 10px auto;
+
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+
+        display: inline-block;
+        color: aqua;
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: gray;
+    }
+
+    .btn {
+        font-family: 'Roboto Slab', serif;
+        margin: 0px 9px;
+        color: white;
+        background-color: rgb(84, 44, 44);
+        padding: 4px 15px;
+        border: 2px;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(44, 17, 17);
+
+    }
+
+    .form-group input {
+        font-family: 'Roboto Slab', serif;
+
+        text-align: center;
+        display: block;
+        width: 42%;
+        padding: 3px 59px;
+        border: 2px solid black;
+        margin: 8px auto;
+        border-radius: 93px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 37%;
+        margin: 22px auto;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+
+
+        <div class="left">
+            <img src="Img/logo.png" alt="">
+            <div>
+                Hawk Fitness
+            </div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="https://www.youtube.com/">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Classes</a></li>
+                <li><a href="#">Trainer</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call</button>
+            <button class="btn">Email</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join Hawk Fitness NOW!</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your PhoneNo.">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
